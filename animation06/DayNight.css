@@ -1,12 +1,12 @@
 body{ 
  padding: 0;
  margin: 0;
- background-color: #oc1330;
+ background-color: #0c1330;
 }
 .container{
  height: 25em;
  width: 16.8em;
- background-color: linear-gradient(#3f006c,#750050,#b10042,#da4837,#f7bb38);
+ background: linear-gradient(#3f006c,#750050,#b10042,#da4837,#f7bb38);
 position: absolute;
 transform: translate(-50%, -50%);
 top: 50%;
@@ -49,19 +49,19 @@ animation: colors 12s infinite forwards;
  }
 @keyframes spin{
   10%{
-	transform: rotate(0deg);
+  transform: rotate(0deg);
 }
   45%{
-	transform: rotate(180deg);
+  transform: rotate(180deg);
 }
   55%{
-	transform: rorate(180deg);
+  transform: rotate(180deg);
 }
   90%{  
-	transform: rotate(360deg);
+  transform: rotate(360deg);
 }
   100%{
-	transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 }
 .sun { 
@@ -109,7 +109,7 @@ animation: colors 12s infinite forwards;
  width: 0.9em;
  border-bottom: 12.5em solid rgba(255, 255, 255, 0.1);
  border-left: 2.1em solid transparent;
- border-right; 2.1em solid transparent;
+ border-right: 2.1em solid transparent;
  transform: rotate(230deg);
  left: 5.75em;
  bottom: -0.3em;
@@ -207,6 +207,7 @@ animation: twinkle 12s infinite forwards;
 @keyframes float{
     50%{
         transform: translateY(0.75em);
+    }
 }
 .glow:before,
 .glow:after {
